@@ -6,12 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <section>
-          <h1>Dictionary</h1>
-          <Dictionary start="sunset" />
-        </section>
+        <h1>Dictionary</h1>{" "}
       </header>
-      <Footer />
+      <section>
+        <Dictionary start="sunset" />
+        <Footer />
+      </section>
     </div>
   );
 }
